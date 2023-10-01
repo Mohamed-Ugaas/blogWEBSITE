@@ -18,8 +18,9 @@ const employeeSchema = new mongoose.Schema({
     password: {
         type: String,
         required: true
-    }
-})
+    },
+}
+)
 
  export const EmployeeModel = mongoose.model("employee", employeeSchema)
 
